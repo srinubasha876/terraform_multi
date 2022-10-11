@@ -6,17 +6,17 @@ selecter.sh 'aws' or selecter.sh 'azure'
 
  run selecter.sh script that will select provider and it will go to that provider dirctory and there we are running commands like below
 # if user selected aws it will run as below
-cd terraform_aws \n
-terraform init \n 
-terraform plan \n 
-terraform apply \n
+cd terraform_aws 
+terraform init
+terraform plan 
+terraform apply
 
 # if user selected azure it will run as below
 
-cd terraform_azure \n
-terraform init \n
-terraform plan \n
-terraform apply \n
+cd terraform_azure
+terraform init 
+terraform plan 
+terraform apply
  
 
 selecting of two providers can't do without terraform enterprise one as per below doc so i have followed aboved method.
