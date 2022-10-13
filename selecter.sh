@@ -3,10 +3,10 @@ echo "$a"
 if [ $a == "aws" ]
 then
     echo "This is coming form aws block $a"
-    echo "cd terraform_aws"
-    echo "terraform init"
-    echo "terraform plan"
-    echo "terraform apply"
+    cd terraform_aws
+    terraform init --backend-file= 
+    terraform plan
+    terraform apply
 
 elif [ $a == "azure" ]
 then
